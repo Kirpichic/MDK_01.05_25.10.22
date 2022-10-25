@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="ru">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>Курс JavaScript</title>
+	<script>
+		let infa = {
+			surname: "Карамзин", name: "Виктор", patronymic: "Геннадьевич", ocupation: "Преподаватель специальных дисциплин", degree: "Высшее", category: "Первая",
+			education: "Московский государственный институт электронной техники (технический университет)", discipline: "Информатика", note: "Норм чел"
+		}
+	</script>	
+</head>
+
+<body>
+	<header>
+		<h1 align = "center">Введение в JavaScript</h1>
+	</header>
+	
+	<div class="content">
+		<script>
+			let line = `<h2>${infa.surname} ${infa.name} ${infa.patronymic}</h2> <p><i>Должность: </i>${infa.ocupation}.<p> <p><i>Должность: </i>${infa.ocupation}.<p>`
+			document.write(line)
+		</script>	
+	</div>
+
+	<footer align = "center">
+	</footer>
+</body>
+</html>
